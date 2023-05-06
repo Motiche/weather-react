@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import UnitChange from "./UnitChange";
-import Search_box from "./Search_box";
-import Selected_Weather from "./Selected_Weather";
-import Forcast_Card from "./Forcast_Card";
+import SearchBox from "./SearchBox";
+import SelectedWeather from "./SelectedWeather";
+import ForcastCard from "./ForcastCard";
 
-import Weather_Chart from "./Weather_Chart";
+import WeatherChart from "./WeatherChart";
 import "bootstrap/dist/css/bootstrap.css";
 import reportWebVitals from "./reportWebVitals";
 
@@ -20,19 +20,19 @@ root.render(
         </div>{" "}
         <div class="col-md-2 d-none d-md-block"></div>
         <div class="col-md-7">
-          <Search_box />
+          <SearchBox />
         </div>
       </div>
       <div class="row main ">
         <div class="col-lg-6">
-          <Selected_Weather />
+          <SelectedWeather />
         </div>
         <div class="col-md-12 col-lg-6 d-none d-md-block pr-0 mr-0 mt-4">
-          <Weather_Chart />
+          <WeatherChart />
         </div>
       </div>
       <div class="row" id="forcast-cards">
-        <Forcast_Card />
+        <ForcastCard />
       </div>
     </div>
     <footer>

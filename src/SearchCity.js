@@ -3,7 +3,7 @@ import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Form from "react-bootstrap/Form";
 
-export default function Search_city() {
+export default function SearchCity() {
   let [City, setCity] = useState("");
   let [Data, setData] = useState(null);
   let API_key = "b1c040ca4f95f4c9b373d01b21c7e668";
@@ -26,7 +26,7 @@ export default function Search_city() {
     console.log(Data);
   }
 
-  function update_city(event) {
+  function updateCity(event) {
     event.preventDefault();
     setCity(event.target.value);
   }
@@ -39,7 +39,7 @@ export default function Search_city() {
   return (
     <div>
       <Form onSubmit={handleSubmit}>
-        <input type="City" placeholder="Type a city" onChange={update_city} />
+        <input type="City" placeholder="Type a city" onChange={updateCity} />
         <input type="submit" value="Search" />
       </Form>
       {Data}

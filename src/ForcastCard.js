@@ -1,6 +1,6 @@
 import "./index.css";
 
-export default function Forcast_Card() {
+export default function ForcastCard() {
   const Weather_data = [
     {
       Weekday: "Sun",

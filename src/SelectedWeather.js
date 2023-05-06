@@ -1,6 +1,6 @@
 import "./index.css";
 
-export default function Selected_Weather() {
+export default function SelectedWeather() {
   return (
     <div className="card align-items-center">
       <h1 id="City">City name</h1>

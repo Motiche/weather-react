@@ -1,6 +1,6 @@
 import "./index.css";
 
-export default function Search_box() {
+export default function SearchBox() {
   return (
     <div class="input-group mb-3" id="Search-City">
       <input
@@ -11,12 +11,7 @@ export default function Search_box() {
         aria-describedby="button-addon2"
         id="Input-city"
       />
-      <button
-        class="btn btn-outline-dark"
-        type="button"
-        id="button-addon2"
-        onclick="javascript: Show_city()"
-      >
+      <button class="btn btn-outline-dark" type="button" id="button-addon2">
         Search 🔍
       </button>
       <button class="btn btn-outline-info" type="button" id="My-coords">

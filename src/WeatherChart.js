@@ -4,7 +4,7 @@ import { CategoryScale } from "chart.js";
 
 import Chart from "chart.js/auto";
 Chart.register(CategoryScale);
-const Weather_Chart = () => {
+const WeatherChart = () => {
   const lineChartData = {
     labels: ["Sun", "Mon", "Tue", "Wed", "Thr", "Fri", "Sat"],
     datasets: [
@@ -53,4 +53,4 @@ const Weather_Chart = () => {
     />
   );
 };
-export default Weather_Chart;
+export default WeatherChart;
